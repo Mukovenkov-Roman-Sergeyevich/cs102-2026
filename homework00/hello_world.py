@@ -1,6 +1,7 @@
-"""Provides a function that simply returns the value it receives as a variable"""
+"""Provides a function that returns a string "message" """
 
 
-def text(message):
-    """Returns the value it receives as a variable"""
+def text():
+    """Returns a string "message" """
+    message = "message"
     return message
